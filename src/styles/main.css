@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+.btn, button {
+  width: auto;
+  padding: 13px 20px;
+  font-family: "Raleway", sans-serif;
+  border-radius: 50px;
+  outline: none;
+  border: 2px solid #1D1D1D;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-red {
+  background: #FF5D5D;
+}
+
+.btn-white {
+  background: #fff;
+}
+
+.navbar {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.navbar .nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-section h1 {
+  font-size: 65px;
+  font-weight: 800;
+  margin-bottom: 11px;
+  text-align: center;
+  margin-top: 115px;
+}
+.hero-section p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+.hero-section .hero-cta {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.hero-section .hero-cta .btn {
+  width: 150px;
+}
+.hero-section .hero-img {
+  display: block;
+  margin: 0 auto;
+}
+
+*, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  color: #1D1D1D;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=main.css.map */
