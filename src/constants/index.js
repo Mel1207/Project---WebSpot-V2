@@ -67,36 +67,42 @@ export const servicesList = [
     id: 1, 
     title: 'Web Development',
     icon: service1,
-    text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+    text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+    cVersion: 1
   },
   {
     id: 2, 
     title: 'Web Security',
     icon: service2,
-    text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+    text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+    cVersion: 2
   },
   {
     id: 3, 
     title: 'Mobile Development',
     icon: service3,
-    text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+    text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+    cVersion: 1
   },
   {
     id: 4, 
     title: 'Web Maintenance',
     icon: service4,
-    text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+    text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+    cVersion: 2
   },
   {
     id: 5, 
     title: 'Database Management',
     icon: service5,
-    text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+    text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+    cVersion: 1
   },
   {
     id: 6, 
     title: 'SEO and Marketing',
     icon: service6,
-    text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+    text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+    cVersion: 2
   },
 ]
