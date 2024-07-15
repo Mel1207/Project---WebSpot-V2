@@ -181,4 +181,11 @@ a {
   border-radius: 10px;
 }
 
+.about-section {
+  background: url("../assets/about-background.webp");
+  width: 100%;
+  padding: 85px 0;
+  color: #fff;
+}
+
 /*# sourceMappingURL=main.css.map */
