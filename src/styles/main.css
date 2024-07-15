@@ -95,5 +95,12 @@ a {
   text-align: center;
   margin-bottom: 50px;
 }
+.partners-section .partner-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
 
 /*# sourceMappingURL=main.css.map */
