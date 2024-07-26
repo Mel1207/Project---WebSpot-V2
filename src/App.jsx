@@ -1,4 +1,5 @@
 import AboutSection from "./components/AboutSection"
+import FeaturedSection from "./components/FeaturedSection"
 import Hero from "./components/Hero"
 import Navigatgion from "./components/Navigatgion"
 import PartnersSection from "./components/PartnersSection"
@@ -12,6 +13,7 @@ function App() {
       <PartnersSection />
       <ServicesSection />
       <AboutSection />
+      <FeaturedSection />
     </>
   )
 }
