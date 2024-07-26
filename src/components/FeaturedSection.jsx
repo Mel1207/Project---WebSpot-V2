@@ -20,6 +20,10 @@ const FeaturedSection = () => {
           <div>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
           <div>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
         </div>
+        <div>
+          {/* IMAGE LIST */}
+          <p>Join over 1500+ active developer clients</p>
+        </div>
       </div>
     </div>
   )
