@@ -201,6 +201,9 @@ a {
   background: red;
   height: 300px;
   width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #000;
 }
 
 /*# sourceMappingURL=main.css.map */

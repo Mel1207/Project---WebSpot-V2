@@ -13,9 +13,12 @@ const FeaturedSection = () => {
           <Button title={'See all'} classes={'btn-red'}/>
         </div>
         <div className='featured-works-list'>
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
+          <div>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+            <img src="#!" alt="John Doe" />
+            <span>CEO - ABC Solutions</span>
+          </div>
+          <div>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
+          <div>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
         </div>
       </div>
     </div>
