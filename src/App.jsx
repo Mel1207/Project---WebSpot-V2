@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import Navigatgion from "./components/Navigatgion"
 import PartnersSection from "./components/PartnersSection"
 import ServicesSection from "./components/ServicesSection"
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ServicesSection />
       <AboutSection />
       <FeaturedSection />
+      <Footer />
     </>
   )
 }
