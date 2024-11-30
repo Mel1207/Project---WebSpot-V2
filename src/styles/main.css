@@ -187,5 +187,33 @@ a {
   padding: 85px 0;
   color: #fff;
 }
+.about-section .container {
+  display: grid;
+  grid-template-columns: 1fr 470px;
+  gap: 80px;
+}
+.about-section h1 {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 60px;
+  line-height: 70px;
+}
+.about-section .industries {
+  display: flex;
+  gap: 40px;
+}
+.about-section .industries img {
+  height: 90px;
+  width: 90px;
+}
+.about-section .about-text {
+  font-size: 16px;
+  color: #fff;
+  line-height: 27px;
+}
+.about-section .about-text p {
+  margin-bottom: 30px;
+}
 
 /*# sourceMappingURL=main.css.map */
