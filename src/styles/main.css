@@ -86,6 +86,13 @@ a {
   font-size: 16px;
 }
 
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
 .partners-section {
   margin-top: 50px;
   padding: 75px;
@@ -113,12 +120,6 @@ a {
 .services-section span {
   display: block;
   margin-bottom: 10px;
-}
-.services-section .section-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 60px;
 }
 .services-section .service-list {
   display: grid;
@@ -187,33 +188,22 @@ a {
   padding: 85px 0;
   color: #fff;
 }
-.about-section .container {
+
+.featured-works {
+  padding: 100px 0;
+}
+.featured-works .featured-works-list {
   display: grid;
-  grid-template-columns: 1fr 470px;
-  gap: 80px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
 }
-.about-section h1 {
-  font-size: 45px;
-  color: #fff;
-  font-weight: 700;
-  margin-bottom: 60px;
-  line-height: 70px;
-}
-.about-section .industries {
-  display: flex;
-  gap: 40px;
-}
-.about-section .industries img {
-  height: 90px;
-  width: 90px;
-}
-.about-section .about-text {
-  font-size: 16px;
-  color: #fff;
-  line-height: 27px;
-}
-.about-section .about-text p {
-  margin-bottom: 30px;
+.featured-works .featured-works-list div {
+  background: red;
+  height: 300px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #000;
 }
 
 /*# sourceMappingURL=main.css.map */

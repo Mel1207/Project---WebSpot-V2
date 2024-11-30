@@ -17,6 +17,12 @@ a
   text-decoration: none
   font-size: 16px
 
+.section-header
+  display: flex 
+  justify-content: space-between
+  align-items: center
+  margin-bottom: 60px
+
 .partners-section 
   margin-top: 50px
   padding: 75px
@@ -43,12 +49,6 @@ a
   span 
     display: block 
     margin-bottom: 10px
-
-  .section-header
-    display: flex 
-    justify-content: space-between
-    align-items: center
-    margin-bottom: 60px
 
   .service-list
     display: grid
@@ -117,32 +117,21 @@ a
   // height: 400px
   width: 100%
   padding: 85px 0
-  color: $cWhite 
+  color: $cWhite
 
-  .container 
-    display: grid 
-    grid-template-columns: 1fr 470px
-    gap: 80px
+// FEATURED SECTION
+.featured-works
+  padding: 100px 0
 
-  h1 
-    font-size: 45px
-    color: $cWhite
-    font-weight: 700
-    margin-bottom: 60px
-    line-height: 70px
+  .featured-works-list 
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    gap: 50px
 
-  .industries 
-    display: flex 
-    gap: 40px 
-
-    img 
-      height: 90px
-      width: 90px
-
-  .about-text
-    font-size: 16px
-    color: $cWhite
-    line-height: 27px
-
-    p
-      margin-bottom: 30px
+    div
+      background: red 
+      height: 300px
+      width: 100%
+      padding: 30px
+      border-radius: 10px
+      border: 2px solid $cBlack
