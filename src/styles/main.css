@@ -188,6 +188,40 @@ a {
   padding: 85px 0;
   color: #fff;
 }
+.about-section .container {
+  display: grid;
+  grid-template-columns: 1fr 480px;
+  gap: 90px;
+}
+.about-section h1 {
+  font-size: 45px;
+  margin-bottom: 60px;
+}
+.about-section .about-text p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  line-height: 27px;
+}
+.about-section .industries {
+  display: flex;
+  gap: 40px;
+}
+.about-section .statistics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.about-section .stats {
+  text-align: center;
+}
+.about-section .stats p {
+  margin-bottom: 0;
+}
+.about-section .stats .stats-number {
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
 
 .featured-works {
   padding: 100px 0;
