@@ -240,4 +240,22 @@ a {
   object-fit: cover;
 }
 
+.section-testimonial {
+  background: #f6f6f6;
+  padding: 100px 0;
+}
+.section-testimonial .testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-top: 55px;
+}
+.section-testimonial .testimonials div {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 30px;
+  height: 375px;
+  background: #fff;
+}
+
 /*# sourceMappingURL=main.css.map */
