@@ -1,28 +1,18 @@
 import React from 'react'
-import Button from './Button'
+import SectionHeader from './SectionHeader'
+import work1 from '../assets/work1.png'
+import work2 from '../assets/work2.png'
+import work3 from '../assets/work3.png'
 
 const FeaturedSection = () => {
   return (
     <div className='featured-works'>
       <div className="container">
-        <div className="section-header">
-          <div>
-            <span>Our projects</span>
-            <h3>Featured Wroks</h3>
-          </div>
-          <Button title={'See all'} classes={'btn-red'}/>
-        </div>
+        <SectionHeader spanText="Our Projects" title="Featured Works"/>
         <div className='featured-works-list'>
-          <div>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
-            <img src="#!" alt="John Doe" />
-            <span>CEO - ABC Solutions</span>
-          </div>
-          <div>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
-          <div>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
-        </div>
-        <div>
-          {/* IMAGE LIST */}
-          <p>Join over 1500+ active developer clients</p>
+          <img src={work1} alt="work 1" />
+          <img src={work2} alt="work 2" />
+          <img src={work3} alt="work 3" />
         </div>
       </div>
     </div>

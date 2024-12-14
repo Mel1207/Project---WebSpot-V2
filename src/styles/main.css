@@ -92,6 +92,14 @@ a {
   align-items: center;
   margin-bottom: 60px;
 }
+.section-header h3 {
+  font-size: 25px;
+  font-weight: 800;
+}
+.section-header span {
+  display: block;
+  margin-bottom: 10px;
+}
 
 .partners-section {
   margin-top: 50px;
@@ -112,14 +120,6 @@ a {
 
 .services-section {
   padding: 100px 0;
-}
-.services-section h3 {
-  font-size: 25px;
-  font-weight: 800;
-}
-.services-section span {
-  display: block;
-  margin-bottom: 10px;
 }
 .services-section .service-list {
   display: grid;
@@ -231,13 +231,13 @@ a {
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
 }
-.featured-works .featured-works-list div {
+.featured-works .featured-works-list div, .featured-works .featured-works-list img {
   background: red;
   height: 300px;
   width: 100%;
-  padding: 30px;
   border-radius: 10px;
   border: 2px solid #000;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=main.css.map */

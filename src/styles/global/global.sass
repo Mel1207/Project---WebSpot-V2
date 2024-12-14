@@ -23,6 +23,14 @@ a
   align-items: center
   margin-bottom: 60px
 
+  h3 
+    font-size: 25px
+    font-weight: 800
+
+  span 
+    display: block 
+    margin-bottom: 10px
+
 .partners-section 
   margin-top: 50px
   padding: 75px
@@ -41,14 +49,6 @@ a
 
 .services-section 
   padding: 100px 0
-
-  h3 
-    font-size: 25px
-    font-weight: 800
-
-  span 
-    display: block 
-    margin-bottom: 10px
 
   .service-list
     display: grid
@@ -166,10 +166,10 @@ a
     grid-template-columns: repeat(3, 1fr)
     gap: 50px
 
-    div
+    div, img
       background: red 
       height: 300px
       width: 100%
-      padding: 30px
       border-radius: 10px
       border: 2px solid $cBlack
+      object-fit: cover
