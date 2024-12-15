@@ -173,39 +173,34 @@ a
 
 // TESTIMONIAL SECTION
 .section-testimonial
-  background: $cWhite-11
+  background: rgba($cWhite-11, .50)
   padding: 100px 0
 
   .testimonials 
     display: grid 
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: 1fr 1fr 1fr
     gap: 50px 
     margin-top: 55px
 
-    .testimonial-card
-      position: relative
-      border: 2px solid $cBlack
-      border-radius: 10px
-      padding: 30px
-      height: 375px
-      background: $cWhite
-      text-align: center
-      line-height: 30px
-      font-weight: 300
-      opacity: 80%
-      z-index: 2
+  .testimonial-card
+    position: relative
+    border: 2px solid $cBlack
+    border-radius: 10px
+    padding: 30px
+    height: 200px
+    background: $cWhite
+    width: 100%
 
-    .outliner
+    &::before
       content: ""
       position: absolute
-      // top: 0
-      right: -10px
-      bottom: -10px
       background: $cBlack
       height: 100%
       width: 100%
+      top: 6px
+      left: 6px
+      z-index: -1
       border-radius: 10px
-      z-index: 1
 
   .testimonial-text
     h2 

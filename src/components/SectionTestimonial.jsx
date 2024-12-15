@@ -11,9 +11,9 @@ const SectionTestimonial = () => {
        
 
         <div className='testimonials'>
-          <div className='testimonial-card'>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since <div className='outliner'></div></div>
-          <div className='testimonial-card'>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since <div className='outliner'></div></div>
-          <div className='testimonial-card'>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since <div className='outliner'></div></div>
+          <div className='testimonial-card test'><p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p></div>
+          <div className='testimonial-card test'>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
+          <div className='testimonial-card test'>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</div>
         </div>
       </div>
       

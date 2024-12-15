@@ -6,6 +6,7 @@ import PartnersSection from "./components/PartnersSection"
 import ServicesSection from "./components/ServicesSection"
 import Footer from './components/Footer'
 import SectionTestimonial from "./components/SectionTestimonial"
+import SectionFAQ from "./components/SectionFAQ"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <AboutSection />
       <FeaturedSection />
       <SectionTestimonial />
+      <SectionFAQ />
       <Footer />
     </>
   )
