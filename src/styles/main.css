@@ -241,8 +241,10 @@ a {
 }
 
 .section-testimonial {
-  background: rgba(246, 246, 246, 0.5);
+  background: #f6f6f6;
   padding: 100px 0;
+  position: relative;
+  z-index: 1;
 }
 .section-testimonial .testimonials {
   display: grid;
@@ -274,6 +276,7 @@ a {
   text-align: center;
   font-size: 25px;
   font-weight: 800;
+  margin-bottom: 15px;
 }
 .section-testimonial .testimonial-text p {
   text-align: center;
