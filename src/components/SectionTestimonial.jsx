@@ -4,7 +4,7 @@ const SectionTestimonial = () => {
   return (
     <div className='section-testimonial'>
       <div className="container">
-        <div className="testimonial-text">
+        <div className="section-text">
           <h2>What our client say</h2>
           <p>ITs simply dummy text of the printing and typesetting industry. Lorem <br /> Ipsum has been the industry's standard dummy text </p>
         </div>

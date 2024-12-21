@@ -31,6 +31,16 @@ a
     display: block 
     margin-bottom: 10px
 
+.section-text
+  h2 
+    text-align: center
+    font-size: 25px
+    font-weight: 800
+    margin-bottom: 15px
+  p 
+    text-align: center
+    line-height: 27px
+
 .partners-section 
   margin-top: 50px
   padding: 75px
@@ -204,16 +214,21 @@ a
       z-index: -1
       border-radius: 10px
 
-  .testimonial-text
-    h2 
-      text-align: center
-      font-size: 25px
-      font-weight: 800
-      margin-bottom: 15px
-    p 
-      text-align: center
-      line-height: 27px
-
 // FAQ SECTION
 .section-faq
   padding: 100px 0
+
+  .accordion 
+    margin-top: 65px
+    .acc-item 
+      // border-top: 1px solid $cBlack
+      border-bottom: 1px solid $cBlack
+      padding: 20px 30px
+
+    .acc-item:nth-child(1)
+      border-top: 1px solid $cBlack
+
+    .acc-question
+      font-size: 18px
+      font-weight: 800
+      margin-bottom: 25px
