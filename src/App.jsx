@@ -7,6 +7,7 @@ import ServicesSection from "./components/ServicesSection"
 import Footer from './components/Footer'
 import SectionTestimonial from "./components/SectionTestimonial"
 import SectionFAQ from "./components/SectionFAQ"
+import EmailCta from "./components/EmailCta"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <FeaturedSection />
       <SectionTestimonial />
       <SectionFAQ />
+      <EmailCta />
       <Footer />
     </>
   )

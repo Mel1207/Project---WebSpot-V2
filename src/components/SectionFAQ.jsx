@@ -54,7 +54,6 @@ const SectionFAQ = () => {
         </div>
       </div>
     </div>
-   
   )
 }
 
