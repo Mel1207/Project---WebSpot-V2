@@ -28,6 +28,13 @@ const SectionFAQ = () => {
       answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
   ]
+
+  const [activeAcc, setActiveAcc] = useState(1)
+
+  const currentAcc = (id) => {
+    setActiveAcc(id)
+  }
+
   return (
     <div className="section-faq">
       <div className='container'>
@@ -37,9 +44,11 @@ const SectionFAQ = () => {
         </div>
         <div className='accordion'>
           {faqItems.map(item => (
-            <div key={item.id} className='acc-item'>
+            <div key={item.id} className={activeAcc === item.id ? 'acc-item active' : 'acc-item'} onClick={() => currentAcc(item.id)}>
               <div className='acc-question'>{item.question}</div>
-              <div>{item.answer}</div>
+              {activeAcc === item.id ? (
+                <div className='acc-answer'>{item.answer}</div>
+              ) : null}
             </div>
           ))}
         </div>

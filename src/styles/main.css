@@ -297,10 +297,16 @@ a {
 .section-faq .accordion .acc-item:nth-child(1) {
   border-top: 1px solid #000;
 }
+.section-faq .accordion .acc-item.active {
+  background: #F4F7FF;
+}
 .section-faq .accordion .acc-question {
   font-size: 18px;
   font-weight: 800;
-  margin-bottom: 25px;
+}
+.section-faq .accordion .acc-answer {
+  margin-top: 25px;
+  line-height: 27px;
 }
 
 /*# sourceMappingURL=main.css.map */
