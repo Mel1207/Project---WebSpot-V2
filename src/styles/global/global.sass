@@ -221,9 +221,9 @@ a
   .accordion 
     margin-top: 65px
     .acc-item 
-      // border-top: 1px solid $cBlack
       border-bottom: 1px solid $cBlack
       padding: 20px 30px
+      cursor: pointer
 
     .acc-item:nth-child(1)
       border-top: 1px solid $cBlack
@@ -234,7 +234,21 @@ a
     .acc-question
       font-size: 18px
       font-weight: 800
+      display: flex
+      gap: 40px
+      align-items: center
+      justify-content: space-between
       
     .acc-answer 
       margin-top: 25px
       line-height: 27px
+      max-width: 850px
+
+    .acc-arrow 
+      height: 35px
+      width: 35px
+      transition: 0.2s
+
+    .rotate-45 
+      transform: rotate(-45deg)
+      transition: 0.2s

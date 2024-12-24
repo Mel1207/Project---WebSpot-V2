@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import AccArrowRight from '../assets/acc-arrow-right.svg'
 
 const SectionFAQ = () => {
   const faqItems = [
@@ -45,7 +46,10 @@ const SectionFAQ = () => {
         <div className='accordion'>
           {faqItems.map(item => (
             <div key={item.id} className={activeAcc === item.id ? 'acc-item active' : 'acc-item'} onClick={() => currentAcc(item.id)}>
-              <div className='acc-question'>{item.question}</div>
+              <div className='acc-question'>
+                {item.question}
+                <img src={AccArrowRight} alt="Accordion arrow" className={activeAcc === item.id ? 'acc-arrow rotate-45' : 'acc-arrow'}/>
+              </div>
               {activeAcc === item.id ? (
                 <div className='acc-answer'>{item.answer}</div>
               ) : null}

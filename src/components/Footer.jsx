@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
           <img src={FooterLogo} alt="logo" />
           {navLinks.map(item => (
-            <a href={item.path}>{item.title}</a>
+            <a href={item.path} key={item.id}>{item.title}</a>
           ))}
           <div>
             {/* THIS IS LOGOs */}
