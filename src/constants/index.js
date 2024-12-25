@@ -10,7 +10,6 @@ import service4 from '../assets/service4.svg'
 import service5 from '../assets/service5.svg'
 import service6 from '../assets/service6.svg'
 
-
 export const navLinks = [
   {
     id: 1, 

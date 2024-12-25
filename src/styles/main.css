@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 .btn, button {
+  position: relative;
   width: auto;
   padding: 13px 20px;
   font-family: "Raleway", sans-serif;
@@ -9,6 +10,17 @@
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
+}
+.btn::before, button::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  right: -4px;
+  bottom: -5px;
+  background: #000;
+  border-radius: 50px;
+  z-index: -1;
 }
 
 .btn-red {
@@ -61,6 +73,39 @@
 .hero-section .hero-img {
   display: block;
   margin: 0 auto;
+}
+
+.footer .footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.footer .social-icons {
+  display: flex;
+  gap: 15px;
+}
+.footer .footer-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.footer .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+.footer .footer-bottom span {
+  font-size: 12px;
+  opacity: 0.5;
+}
+.footer .legal {
+  display: flex;
+  gap: 30px;
+}
+.footer .legal a {
+  font-size: 12px;
 }
 
 *, html {
@@ -352,6 +397,10 @@ a {
   position: absolute;
   right: -40px;
   bottom: -5px;
+}
+
+.icon:hover {
+  color: red;
 }
 
 /*# sourceMappingURL=main.css.map */
