@@ -9,6 +9,11 @@ import service3 from '../assets/service3.svg'
 import service4 from '../assets/service4.svg'
 import service5 from '../assets/service5.svg'
 import service6 from '../assets/service6.svg'
+import avatar1 from '../assets/img-avatar-1.jpg'
+import avatar2 from '../assets/img-avatar-2.jpg'
+import avatar3 from '../assets/img-avatar-3.jpg'
+import avatar4 from '../assets/img-avatar-4.webp'
+import avatar5 from '../assets/img-avatar-5.webp'
 
 export const navLinks = [
   {
@@ -103,5 +108,62 @@ export const servicesList = [
     icon: service6,
     text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
     cVersion: 2
+  },
+]
+
+export const testimonialList = [
+  {
+    id: 1,
+    message: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+    avatarSrc: avatar1,
+    name: 'John Doe',
+    company: 'CEO - ABC Solutions'
+  },
+  {
+    id: 2,
+    message: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+    avatarSrc: avatar2,
+    name: 'John Doe',
+    company: 'CEO - ABC Solutions'
+  },
+  {
+    id: 3,
+    message: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+    avatarSrc: avatar3,
+    name: 'John Doe',
+    company: 'CEO - ABC Solutions'
+  },
+]
+
+export const avatarList = [
+  {
+    id: 1,
+    title: 'Avatar 1',
+    src: avatar1,
+    theme: '#000'
+  },
+  {
+    id: 2,
+    title: 'Avatar 2',
+    src: avatar2,
+    theme: '#000'
+  },
+  {
+    id: 3,
+    title: 'Avatar 3',
+    src: avatar3,
+    theme: '#000'
+  },
+  {
+    id: 4,
+    title: 'Avatar 4',
+    src: avatar4,
+    theme: '#000'
+  },
+  {
+    id: 5,
+    title: 'Avatar 5',
+    src: avatar5,
+    theme: '#000'
   },
 ]

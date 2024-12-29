@@ -216,9 +216,12 @@ a
     border: 2px solid $cBlack
     border-radius: 10px
     padding: 30px
-    height: 200px
+    // height: 200px
     background: $cWhite
     width: 100%
+    display: flex 
+    flex-direction: column 
+    align-items: center
 
     &::before
       content: ""
@@ -230,6 +233,48 @@ a
       left: 6px
       z-index: -1
       border-radius: 10px
+
+    p 
+      font-style: italic
+      line-height: 27px
+      text-align: center
+
+    .testimonial-avt 
+      height: 50px
+      width: 50px
+      border-radius: 100px
+      border: 2px solid $cBlack
+      object-fit: cover
+      margin: 45px 0 20px
+
+    h4 
+      font-size: 18px
+      font-weight: 800
+      margin-bottom: 5px
+
+    span 
+      font-size: 14px
+      font-weight: 400
+      color: $cRed
+
+// AVATAR LIST
+.avatar-list
+  display: flex
+  justify-content: center
+  margin: 90px 0 25px
+
+  img 
+    height: 65px
+    width: 65px
+    border-radius: 100px
+    object-fit: cover
+    margin-left: -10px
+    border: 2px solid $cBlack
+
+.avatar-text 
+  text-align: center
+
+
 
 // FAQ SECTION
 .section-faq
@@ -299,4 +344,5 @@ a
     position: absolute
     right: -40px
     bottom: -5px
+
 
