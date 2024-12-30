@@ -6,7 +6,7 @@ import work3 from '../assets/work3.png'
 
 const FeaturedSection = () => {
   return (
-    <div className='featured-works'>
+    <div className='section-featured'>
       <div className="container">
         <SectionHeader spanText="Our Projects" title="Featured Works"/>
         <div className='featured-works-list'>
