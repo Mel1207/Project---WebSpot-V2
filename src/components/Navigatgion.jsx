@@ -2,6 +2,7 @@ import React from 'react'
 import logoMain from '../assets/LOGO.svg'
 import { navLinks } from '../constants'
 import Button from './Button'
+import IconMenu from '../assets/IconMenu'
 
 const Navigatgion = () => {
   return (
@@ -18,6 +19,9 @@ const Navigatgion = () => {
         </ul>
 
         <Button classes='btn-red' title='Get Quotation'/>
+        <button className='btn-menu'>
+          <IconMenu />
+        </button>
       </div>
     </nav>
   )

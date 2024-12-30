@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-.btn, button {
+.btn {
   position: relative;
   width: auto;
   padding: 13px 20px;
@@ -11,7 +11,7 @@
   font-weight: 600;
   cursor: pointer;
 }
-.btn::before, button::before {
+.btn::before {
   position: absolute;
   content: "";
   height: 100%;
@@ -29,6 +29,11 @@
 
 .btn-white {
   background: #fff;
+}
+
+.btn-menu {
+  background: none;
+  border: none;
 }
 
 .navbar {
@@ -108,6 +113,38 @@
   font-size: 12px;
 }
 
+@media screen and (max-width: 600px) {
+  .navbar .nav-links {
+    display: none;
+  }
+  .navbar .btn-red {
+    display: none;
+  }
+  .hero-section .hero-img {
+    width: 100%;
+  }
+  .hero-section h1 {
+    font-size: 25px;
+    margin-top: 105px;
+  }
+  .hero-section p {
+    font-size: 14px;
+  }
+  .hero-section br {
+    display: none;
+  }
+  .hero-section .hero-cta {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+  .hero-section .hero-cta .btn {
+    width: 250px;
+  }
+  .services-section .service-list {
+    grid-template-columns: 1fr !important;
+  }
+}
 *, html {
   margin: 0;
   padding: 0;
