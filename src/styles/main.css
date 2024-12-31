@@ -52,6 +52,9 @@
   align-items: center;
   gap: 30px;
 }
+.navbar .btn-menu {
+  display: none;
+}
 
 .hero-section h1 {
   font-size: 65px;
@@ -471,6 +474,9 @@ a {
   .navbar .btn-red {
     display: none;
   }
+  .navbar .btn-menu {
+    display: block;
+  }
   .hero-section .hero-img {
     width: 100%;
   }
@@ -491,6 +497,15 @@ a {
   }
   .hero-section .hero-cta .btn {
     width: 250px;
+  }
+  .partners-section {
+    padding: 50px 0;
+  }
+  .partners-section h2 {
+    font-size: 16px;
+  }
+  .partners-section .partner-list {
+    flex-direction: column;
   }
   .services-section .service-list {
     grid-template-columns: 1fr !important;
