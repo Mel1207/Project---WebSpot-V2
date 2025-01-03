@@ -4,6 +4,7 @@ import EmailCtaFigure from '../assets/email-cta-figure.svg'
 
 const EmailCta = () => {
   return (
+    <div className='section-email'>
     <div className="container">
       <div className='email-cta'>
         <div>
@@ -15,7 +16,7 @@ const EmailCta = () => {
         </div>
         <img src={EmailCtaFigure} alt="" className='email-figure'/>
       </div>
-
+    </div>
     </div>
   )
 }

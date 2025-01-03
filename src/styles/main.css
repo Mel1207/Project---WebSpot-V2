@@ -196,7 +196,6 @@ a {
   border: 2px solid #000;
   border-radius: 10px;
   padding: 30px;
-  height: 270px;
 }
 .services-section .service-icon {
   background: #FF5D5D;
@@ -254,12 +253,16 @@ a {
 }
 .about-section .container {
   display: grid;
-  grid-template-columns: 1fr 480px;
+  grid-template-columns: 1fr 1fr;
   gap: 90px;
 }
 .about-section h1 {
   font-size: 45px;
   margin-bottom: 60px;
+}
+.about-section .about-text {
+  max-width: 480px;
+  margin-left: auto;
 }
 .about-section .about-text p {
   font-size: 1rem;
@@ -437,6 +440,10 @@ a {
   transition: 0.2s;
 }
 
+.section-email {
+  overflow-x: hidden;
+}
+
 .email-cta {
   position: relative;
   height: 310px;
@@ -463,11 +470,12 @@ a {
 }
 .email-cta .email-figure {
   position: absolute;
-  right: -40px;
+  right: 0;
   bottom: -5px;
+  transform: translateX(40px);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .navbar .nav-links {
     display: none;
   }
@@ -481,8 +489,46 @@ a {
     width: 100%;
   }
   .hero-section h1 {
-    font-size: 25px;
+    font-size: 40px;
     margin-top: 105px;
+  }
+  .hero-section p {
+    font-size: 14px;
+  }
+  .services-section .service-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-section .container {
+    grid-template-columns: 1fr;
+  }
+  .about-section .about-text {
+    max-width: 100%;
+  }
+  .section-featured .featured-works-list {
+    grid-template-columns: 1fr;
+  }
+  .section-testimonial .testimonials {
+    grid-template-columns: 1fr;
+  }
+  .email-cta {
+    padding: 20px;
+  }
+  .email-cta img {
+    display: none;
+  }
+  .footer .footer-top {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero-section h1 {
+    font-size: 25px;
   }
   .hero-section p {
     font-size: 14px;
@@ -508,31 +554,7 @@ a {
     flex-direction: column;
   }
   .services-section .service-list {
-    grid-template-columns: 1fr !important;
-  }
-  .about-section .container {
-    grid-template-columns: 1fr !important;
-  }
-  .section-featured .featured-works-list {
-    grid-template-columns: 1fr !important;
-  }
-  .section-testimonial .testimonials {
-    grid-template-columns: 1fr !important;
-  }
-  .email-cta {
-    padding: 20px;
-  }
-  .email-cta img {
-    display: none;
-  }
-  .footer .footer-top {
-    flex-direction: column;
-    gap: 30px;
-  }
-  .footer .footer-bottom {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    grid-template-columns: 1fr;
   }
 }
 
