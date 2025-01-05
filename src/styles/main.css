@@ -496,27 +496,37 @@ a {
     font-size: 14px;
   }
   .services-section {
-    padding: 80px 0;
+    padding: 50px 0;
   }
   .services-section .service-list {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
+  .about-section {
+    padding: 50px 0;
+  }
   .about-section .container {
     grid-template-columns: 1fr;
+    gap: 50px;
   }
   .about-section .about-text {
     max-width: 100%;
   }
+  .about-section .statistics {
+    margin-top: 50px;
+  }
+  .about-section .stats .stats-number {
+    font-size: 30px;
+  }
   .section-featured {
-    padding: 80px 0;
+    padding: 50px 0;
   }
   .section-featured .featured-works-list {
     grid-template-columns: 1fr;
     gap: 30px;
   }
   .section-testimonial {
-    padding: 80px 0;
+    padding: 50px 0;
   }
   .section-testimonial .testimonials {
     grid-template-columns: 1fr;
@@ -575,6 +585,10 @@ a {
   }
   .partners-section .partner-list {
     flex-direction: column;
+  }
+  .about-section h1 {
+    font-size: 25px;
+    line-height: 40px;
   }
   .services-section .service-list {
     grid-template-columns: 1fr;
