@@ -12,7 +12,7 @@ const SectionTestimonial = () => {
       
         <div className='testimonials'>
           {testimonialList.map(item => (
-            <div className='testimonial-card'>
+            <div className='testimonial-card' key={item.id}>
               <p>{item.message}</p>
               <img src={item.avatarSrc} alt={item.name} className='testimonial-avt'/>
               <h4>{item.name}</h4>
@@ -23,7 +23,7 @@ const SectionTestimonial = () => {
 
         <div className='avatar-list'>
           {avatarList.map(item => (
-            <img src={item.src} alt={item.title} className={item.theme}/>
+            <img src={item.src} alt={item.title} className={item.theme} key={item.id}/>
           ))}
         </div>
         <p className='avatar-text'>Join over 1500+ active developer clients</p>
