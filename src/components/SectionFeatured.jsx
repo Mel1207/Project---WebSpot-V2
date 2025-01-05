@@ -4,7 +4,7 @@ import work1 from '../assets/work1.png'
 import work2 from '../assets/work2.png'
 import work3 from '../assets/work3.png'
 
-const FeaturedSection = () => {
+const SectionFeatured = () => {
   return (
     <div className='section-featured'>
       <div className="container">
@@ -25,4 +25,4 @@ const FeaturedSection = () => {
   )
 }
 
-export default FeaturedSection
+export default SectionFeatured

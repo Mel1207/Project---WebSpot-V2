@@ -1,23 +1,25 @@
-import AboutSection from "./components/AboutSection"
-import FeaturedSection from "./components/FeaturedSection"
 import Hero from "./components/Hero"
 import Navigatgion from "./components/Navigatgion"
-import PartnersSection from "./components/PartnersSection"
-import ServicesSection from "./components/ServicesSection"
+import SectionPartners from "./components/SectionPartners"
+import SectionServices from "./components/SectionServices"
 import Footer from './components/Footer'
 import SectionTestimonial from "./components/SectionTestimonial"
 import SectionFAQ from "./components/SectionFAQ"
 import EmailCta from "./components/EmailCta"
+import SectionFeatured from "./components/SectionFeatured"
+import SectionAbout from "./components/SectionAbout"
+
+
 
 function App() {
   return (
     <>
       <Navigatgion />
       <Hero />
-      <PartnersSection />
-      <ServicesSection />
-      <AboutSection />
-      <FeaturedSection />
+      <SectionPartners />
+      <SectionServices />
+      <SectionAbout />
+      <SectionFeatured />
       <SectionTestimonial />
       <SectionFAQ />
       <EmailCta />

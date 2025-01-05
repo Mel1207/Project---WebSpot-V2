@@ -1,7 +1,7 @@
 import React from 'react'
 import { partnerList } from '../constants'
 
-const PartnersSection = () => {
+const SectionPartners = () => {
   return (
     <div className="partners-section">
       <div className='container'>
@@ -16,4 +16,4 @@ const PartnersSection = () => {
   )
 }
 
-export default PartnersSection
+export default SectionPartners

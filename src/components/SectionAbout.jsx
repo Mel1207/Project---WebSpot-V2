@@ -3,7 +3,7 @@ import industry1 from '../assets/industry1.png'
 import industry2 from '../assets/industry2.png'
 import industry3 from '../assets/industry3.png'
 
-const AboutSection = () => {
+const SectionAbout = () => {
   return (
     <div className='about-section'>
       <div className="container">
@@ -39,4 +39,4 @@ const AboutSection = () => {
   )
 }
 
-export default AboutSection
+export default SectionAbout

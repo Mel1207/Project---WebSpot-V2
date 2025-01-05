@@ -1,18 +1,13 @@
 import React from 'react'
 import { servicesList } from '../constants'
 import Button from './Button'
+import SectionHeader from './SectionHeader'
 
-const ServicesSection = () => {
+const SectionServices = () => {
   return (
     <div className='services-section'>
       <div className='container'>
-        <div className='section-header'>
-          <div>
-            <span>Our services</span>
-            <h3>What we can offer</h3>
-          </div>
-          <Button title={'See all'} classes={'btn-red'}/>
-        </div>
+        <SectionHeader title='What we can offer' spanText='Our services'/>
         <div className='service-list'>
           {servicesList.map(item => (
             <div key={item.id} className={`service-card ${item.cVersion === 1 ? 'cv1' : 'cv2'}`}>
@@ -29,4 +24,4 @@ const ServicesSection = () => {
   )
 }
 
-export default ServicesSection
+export default SectionServices
